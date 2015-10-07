@@ -52,6 +52,16 @@ a:hover {
     color: #d20;
 }
 
+footer {
+    margin-top: 30px;
+    font-size: 9px;
+    text-align: center;
+}
+
+footer a {
+    font-weight: normal;
+}
+
 @media (min-width: 720px) {
     body {
         margin: 0;
@@ -70,5 +80,9 @@ a:hover {
     
     h2 {
         font-size: 40px;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
