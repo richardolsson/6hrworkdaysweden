@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fee;
+    font-family: Arial;
+    font-size: 12px;
+    background: linear-gradient(0, #fdd, #fee);
+    min-height: 100%;
+    margin: 20px;
+}
+
+#message {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+ul {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #b10;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d20;
+}
+
+@media (min-width: 720px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle at 50% 50%, #fee 0, #fdd 100%);
+    }
+
+    h1 {
+        max-width: 600px;
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+}
